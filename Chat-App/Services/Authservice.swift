@@ -254,11 +254,7 @@ class AuthService{
             print("No internet Connection")
             //      viewController.showAlert(message: "No Internet Connection", title: "Error", buttonTitle: "OK", buttonStyle: .cancel)
             //      toastMessage(viewController: viewController, toastMessage: "Internet Connection Error")
-            let alertController = UIAlertController (title: "No Internet Connection", message: "Do you want to enable data / wifi from settting?", preferredStyle: .alert)
-            let settingsAction = UIAlertAction(title: "Settings", style: .default) { (_) -> Void in
-                UIApplication.shared.open(URL(string:"App-Prefs:root=General")!, options: [:], completionHandler: nil)
-            }
-            alertController.addAction(settingsAction)
+            let alertController = UIAlertController (title: "No Internet Connection", message: "Please enable data / wifi from setttings.", preferredStyle: .alert)
             let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: nil)
             alertController.addAction(cancelAction)
             viewController.present(alertController, animated: true, completion: nil)

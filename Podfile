@@ -15,4 +15,7 @@ target 'Chat-App' do
   pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
     pod 'IQKeyboardManagerSwift'
   pod "TTGSnackbar"
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+
 end

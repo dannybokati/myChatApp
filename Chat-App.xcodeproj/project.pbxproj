@@ -20,6 +20,7 @@
 		A310B18F1FF006C500B0CF48 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A310B18E1FF006C500B0CF48 /* GradientView.swift */; };
 		A312EF70201B77A400FB11D2 /* Authservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A312EF6F201B77A400FB11D2 /* Authservice.swift */; };
 		A312EF73201B788800FB11D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A312EF72201B788800FB11D2 /* Constants.swift */; };
+		A31CEE3421D3492700708C54 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31CEE3321D3492700708C54 /* StoreKit.framework */; };
 		A31CFE6B20BE6A1F00BAD587 /* UIViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CFE6A20BE6A1F00BAD587 /* UIViewControllerExtention.swift */; };
 		A347374720B68607002A1B4D /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A347374620B68607002A1B4D /* ChannelCell.swift */; };
 		A347374A20B6A585002A1B4D /* CreateChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A347374820B6A585002A1B4D /* CreateChannel.swift */; };
@@ -39,6 +40,7 @@
 		A387935120BFD8F8002DB991 /* AddUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A387934F20BFD8F8002DB991 /* AddUserVC.xib */; };
 		A3884E4D20BC5D600079EA39 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3884E4C20BC5D600079EA39 /* DateUtility.swift */; };
 		A39954F620AEE56D00ED155D /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39954F520AEE56D00ED155D /* UserDefaults.swift */; };
+		A3B09337220F3662006ED3D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3B09336220F3662006ED3D9 /* GoogleService-Info.plist */; };
 		A3B3D845202F21E4002EBBDC /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3D844202F21E4002EBBDC /* UserDataService.swift */; };
 		A3D6227A20AD808F003F15F8 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D6227920AD808F003F15F8 /* AvatarPickerVC.swift */; };
 		A3D6227C20AD9A5B003F15F8 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D6227B20AD9A5B003F15F8 /* AvatarCell.swift */; };
@@ -71,6 +73,7 @@
 		A310B18E1FF006C500B0CF48 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		A312EF6F201B77A400FB11D2 /* Authservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authservice.swift; sourceTree = "<group>"; };
 		A312EF72201B788800FB11D2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A31CEE3321D3492700708C54 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		A31CFE6A20BE6A1F00BAD587 /* UIViewControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtention.swift; sourceTree = "<group>"; };
 		A347374620B68607002A1B4D /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		A347374820B6A585002A1B4D /* CreateChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChannel.swift; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 		A387934F20BFD8F8002DB991 /* AddUserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddUserVC.xib; sourceTree = "<group>"; };
 		A3884E4C20BC5D600079EA39 /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
 		A39954F520AEE56D00ED155D /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		A3B09336220F3662006ED3D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3B09338220FD9E5006ED3D9 /* Chat-App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Chat-App.entitlements"; sourceTree = "<group>"; };
 		A3B3D844202F21E4002EBBDC /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		A3D6227920AD808F003F15F8 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		A3D6227B20AD9A5B003F15F8 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -108,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94EB9C53713AB94F9487BE6 /* Pods_Chat_App.framework in Frameworks */,
+				A31CEE3421D3492700708C54 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +141,7 @@
 		A302B47C1FEFD3D300EE4B5E /* Chat-App */ = {
 			isa = PBXGroup;
 			children = (
+				A3B09338220FD9E5006ED3D9 /* Chat-App.entitlements */,
 				A384B0A820BEAAEB009A048A /* SDK */,
 				A31CFE6920BE6A0200BAD587 /* Extention */,
 				A312EF71201B787000FB11D2 /* Utilities */,
@@ -149,6 +156,7 @@
 				A302B4841FEFD3D300EE4B5E /* Assets.xcassets */,
 				A302B4861FEFD3D300EE4B5E /* LaunchScreen.storyboard */,
 				A302B4891FEFD3D300EE4B5E /* Info.plist */,
+				A3B09336220F3662006ED3D9 /* GoogleService-Info.plist */,
 			);
 			path = "Chat-App";
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 		DC4A731A9E664B5CA056CA03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A31CEE3321D3492700708C54 /* StoreKit.framework */,
 				15F7A37E603F8E553DC4BBCA /* Pods_Chat_App.framework */,
 			);
 			name = Frameworks;
@@ -300,6 +309,14 @@
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -327,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3F20C9C20B54B7B00E37AC3 /* ProfileVC.xib in Resources */,
+				A3B09337220F3662006ED3D9 /* GoogleService-Info.plist in Resources */,
 				A387934B20BFB5E6002DB991 /* searchUserVC.xib in Resources */,
 				A302B4881FEFD3D300EE4B5E /* LaunchScreen.storyboard in Resources */,
 				A387935120BFD8F8002DB991 /* AddUserVC.xib in Resources */,
@@ -347,22 +365,28 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Chat-App/Pods-Chat-App-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -566,12 +590,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Chat-App/Chat-App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDY2LMF9WL;
 				INFOPLIST_FILE = "Chat-App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gtechdevelopers.Chat-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bokatienterprises.Chat-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Chat-App/SupportingFIles/Chat-App-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -586,12 +611,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Chat-App/Chat-App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDY2LMF9WL;
 				INFOPLIST_FILE = "Chat-App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gtechdevelopers.Chat-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bokatienterprises.Chat-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Chat-App/SupportingFIles/Chat-App-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
